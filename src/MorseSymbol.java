@@ -1,13 +1,13 @@
 public enum MorseSymbol {
-    DOT("."), HYPHEN("-");
+    DOT('.'), HYPHEN('-');
 
-    String symbol;
+    char symbol;
 
-    MorseSymbol(String symbol) {
+    MorseSymbol(char symbol) {
         this.symbol = symbol;
     }
 
-    public String getSymbol() {
+    public char getSymbol() {
         return symbol;
     }
 }

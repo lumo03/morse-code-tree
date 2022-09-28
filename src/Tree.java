@@ -13,18 +13,13 @@ public class Tree {
         }
     }
 
-    public String traverse(MorseSymbol[] array) {
-        String out = "";
+    public char traverse(MorseSymbol[] array) {
         Node runner = root;
-        out += runner.getLetter();
 
         for (MorseSymbol symbol : array) {
-            if (runner != null) {
-                runner = traverseNode(runner, symbol);
-                out += runner.getLetter();
-            }
+            runner = traverseNode(runner, symbol);
         }
 
-        return out;
+        return runner.getLetter();
     }
 }

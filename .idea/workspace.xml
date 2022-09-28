@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4920e72f-06d4-4710-8d8f-6464982851f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MorseSymbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MorseSymbol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="morse-code-tree" />
@@ -80,11 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.traverseNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.traverse3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="morse-code-tree" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TreeTest" />
-      <option name="METHOD_NAME" value="traverseNode" />
+      <option name="METHOD_NAME" value="traverse3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsTest.convertStringToMorseSymbols" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="morse-code-tree" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilsTest" />
+      <option name="METHOD_NAME" value="convertStringToMorseSymbols" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,10 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeTest" />
-        <item itemvalue="JUnit.TreeTest.traverse" />
-        <item itemvalue="JUnit.TreeTest.traverseNode" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TreeTest" />
+        <item itemvalue="JUnit.TreeTest.traverse3" />
+        <item itemvalue="JUnit.UtilsTest.convertStringToMorseSymbols" />
+        <item itemvalue="JUnit.TreeTest.traverse" />
       </list>
     </recent_temporary>
   </component>
