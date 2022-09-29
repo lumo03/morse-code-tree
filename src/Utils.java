@@ -32,10 +32,10 @@ public class Utils {
 
         while(isValid == false) {
             System.out.println("Gib den Morsecode eines Buchstabens ein.");
-            System.out.println("Der Morsecode darf nur aus '.' und '-' bestehen!");
+            System.out.println("Der Morsecode darf nur aus '.' und '-' bestehen (max. 4 Zeichen)!");
             String in = scanner.nextLine();
-            input = in;
-            isValid = inputIsValid(in);
+            input = in.length() <= 4 ? in : in.substring(0, 4);
+            isValid = inputIsValid(input);
         }
 
         return input;
